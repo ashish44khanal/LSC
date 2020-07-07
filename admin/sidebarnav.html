@@ -4,45 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <style>
-        a:visited{
-            color: #006699;
-        }
-    </style>
-
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <div class="bg-light" id="sidebar-wrapper">
-        <div class="sidebar-heading">
-          <img src="../images/Logo.png" alt="LSC logo">    
+    <div class="sideBarNav">
+        <div class="LSC">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <img src="../images/Logo.png" alt="" style="float: right;">
+                </div>
+                <div class="col-md-8">
+                    <h4>LSC Admin</h4>
+                </div>
+            </div>
         </div>
-        <div class="list-group list-group-flush">
-          <a href="index.php" class="list-group-item list-group-item-action bg-light" style="border:none;">Latest Content</a>
-          <a href="viewhomework.php" class="list-group-item list-group-item-action bg-light" style="border:none;">Lesson & Homework</a>
-          <a href="homeworkhistory.php" class="list-group-item list-group-item-action bg-light" style="border:none;">Homework History</a>
+        
+        <div class="nav">
+            <table class="table">
+                <tr><td class="mySideBarNav"><a href="home.php" style="color: white;"> <i class="fa fa-home"></i> <span style="padding-left: 10px;">Home</span></a></td></tr>
+                <tr><td class="mySideBarNav"><a href="company.php" style="color: white;"> <i class="fa fa-building"></i> <span style="padding-left: 10px;"> Companies Profile</span></a></td></tr>
+                <tr><td class="mySideBarNav"><a href="distribution.php" style="color: white;"> <i class="fas fa-network-wired"></i> <span style="padding-left: 5px;">Distribution Network</span> </a></td></tr>
+                <tr><td class="mySideBarNav"><a href="product.php" style="color: white;"><i class="fas fa-seedling"></i><span style="padding-left: 12px;">Product Portfolio</span></a></td></tr>
+                <tr><td class="mySideBarNav"><a href="news&event.php"><i class="fas fa-newspaper"></i><span style="padding-left: 12px;">News and Event</span></a></td></tr>
+                <tr><td class="mySideBarNav"><a href="career.php" style="color: white;"><i class="fas fa-user-shield"></i><span style="padding-left: 8px;">Career & Opportunities</span></a></td></tr> 
+                <tr><td class="mySideBarNav"><a href="contact.php" style="color: white;"><i class="fas fa-address-card"></i><span style="padding-left: 10px;">Contact us</span></a></li></td></tr>
+                <tr><td class="mySideBarNav"><a href="index.html" style="color: white;"><i class="fas fa-sign-out-alt"></i><span style="padding-left: 12px;">Logout</span></a></li></td></tr>
+            </table>
+        
         </div>
-      </div>
-      <!-- /#sidebar-wrapper -->
-    
-    
 
+        <div class="CreatedBy">
+            <h5>Created By</h5>
+            <p>Our Org</p>
+        </div>
+        
+    </div>
+
+            
+<script src="../bootstrap/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/d27006f8df.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
- <!-- Menu Toggle Script -->
- <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
 </body>
 </html>
