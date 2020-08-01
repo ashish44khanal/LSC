@@ -38,7 +38,7 @@
 <!-- news details starts  -->
 <div class="newsDetails">
     <div class="container">
-    <img src="images/news.png" alt="" style="float:left;padding:0 30px 20px 0;">
+    <img src="images/news.png" class="img-fluid"alt="" style="float:left;padding:0 30px 20px 0;">
     <h2 class="HeadersB">
         News Heading goes here like this 
     </h2>

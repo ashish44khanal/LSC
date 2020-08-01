@@ -143,6 +143,14 @@
     margin-top: 50px;
     
 }
+.Gallery{
+    background: url('../images/farmers.jpg');
+    margin-top: 40px;
+}
+.galleryImg{
+    margin-top: 20px;
+}
+
 
 .PcatL ul li{
     list-style-type:none;
@@ -433,9 +441,13 @@
  }
 
  /* distribution netwrork starts  */
- 
- .distribution{
+ .Dcontent{
+     padding: 10px 30px;
+ }
+ .cardSection{
      background-color: #e5e5e5;
+     padding: 20px 30px;
+     border-radius: 12px 12px 0 0;
      background-attachment: fixed;
  }
  .dCard{
@@ -453,4 +465,158 @@
 #contactBtn{
     margin-top: 30px;
     margin-left:0;
+}
+.seedFpic{
+    margin:20px 0 40px 2vw;
+    padding:0 30px;
+
+}
+.seedFpic2{
+    margin:20px 0 40px 2vw; 
+    border-left:1px solid grey; 
+    border-right:1px solid grey; 
+    padding:0 2vw;
+
+}
+.seedF{
+    text-transform:uppercase;
+    text-align:center; 
+    padding:0 30px;
+}
+.profileLeft{
+    padding-left: 140px;
+}
+
+/* reasech code starts here  */
+
+.TopResearch{
+    background-color: #e5e5e5;
+    padding: 80px 20px;
+}
+.imgR{
+    float:right;
+    width: 500px;
+    height: 300px;
+}
+
+.topP{
+    background-color: #2D5F2E;
+    padding: 5px 20px;
+    border-radius: 140px;
+    width: 200px;
+    color: white;
+}
+.topBtn{
+    border: 1px solid grey;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #e5e5e5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.customNextBtn{
+    background-color: #e5e5e5;
+    padding: 5px;
+    border: none;
+}
+.customPrevBtn{
+    background-color: #e5e5e5;
+    padding: 5px;
+    border: none;
+    opacity: .5;
+
+}
+.mainR{
+    margin-top: 50px;
+}
+.researchCard{
+    padding: 10px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 2px #e5e5e5;
+    margin-top: 20px;
+}
+.rProgram{
+    font-weight: 600;
+}
+
+.researchCard h5{
+    font-weight: 600;
+}
+.ResearchHead1{
+    color: #2D5F2E;
+    margin-top: 30px;
+}
+.ongoingR{
+    padding: 20px 0;
+}
+.rgImg{
+    height: 250px;
+    width: 250px;
+}
+.rdetail{
+    margin-top: 40px;
+    padding: 10px 40px;
+}
+.ResearchGallery  h3{
+    padding: 20px 0;
+}
+.RealtedContent h3{
+    margin-top: 40px;
+}
+
+
+
+
+@media only screen and (max-width:576px){
+    
+    .headFeatures{
+        margin-top: 40px;
+    }
+    .seedF{
+        font-size: small;
+        padding: 0;
+    }
+    .seedFpic2{
+        width: 50px;
+        border: none;
+    }
+    .HeadersB{
+        padding:0;
+    }
+    .profileLeft{
+        padding-left: 25px;
+    }
+    .layer{
+        background-color: rgba(0, 0, 0, .7);
+        padding: 50px 20px;
+        margin: 80px 0;
+        color: white;
+    
+     }
+     .photoContainer img{
+        margin:20px 0;
+        height: 150px;
+        width: 150px;
+        overflow: hidden;
+    }
+    .downloadBtn{
+        float: none;
+    }
+    .Gallery{
+        background-image: ;
+        margin-top: 40px;
+        padding: 0;
+    }
+    .galleryImg{
+        height: 150px;
+    }
+    .cardSection{
+        background-color: #e5e5e5;
+        padding: 10px 0;
+        background-attachment: fixed;
+    }
+    .cardSection{
+        background-color: white;
+    }
 }

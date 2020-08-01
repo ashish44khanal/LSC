@@ -71,9 +71,9 @@
                     </h3>
 
                     <div class="contactInfo">
-                        <i class="fas fa-map-marked"></i><span>sidharthanagar, Bhairahawa</span> <br>
-                        <i class="fas fa-phone-alt"></i><span>+977-0932453cv | 22343452v </span> <br>
-                        <i class="fas fa-envelope"></i><span>info@LSC.com</span>
+                        <i class="fas fa-map-marked"></i><br><span>OFFICE : Siddharthanagar-7, Bhairahawa <br> COMPANY : Mayadevi-8, Matkolwa</span> <br>
+                        <i class="fas fa-phone-alt"></i><span>071-524455 | +977-9847050802</span> <br>
+                        <i class="fas fa-envelope"></i><span>lscpvtltd2002@gmail.com</span>
                         
                         <div class="socialMedia">
                             <ul>

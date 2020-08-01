@@ -187,7 +187,10 @@
 
 
 
-
+<div class="footer">
+        <?php include('footer.html')?>
+    </div>
+    
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/d27006f8df.js" crossorigin="anonymous"></script>
 

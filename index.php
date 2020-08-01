@@ -139,7 +139,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="HeadersB">
-                        Seed Company Slogon Goes Here
+                        Seed Security is Food Security
                     </h1>
                     <h5>Welcome to the Lumbini Seed Company</h5>
                 </div>
@@ -152,16 +152,16 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 col-4">
-                    <img src="images/s1.png" alt="" style="margin:20px 0 40px 2vw; padding:0 30px;" class="img-fluid">
-                    <h2 class="HeadersB" style="text-transform:uppercase;text-align:center; padding:0 30px;"> We Innovate Seed For Life</h2>
+                    <img src="images/s1.png" alt="" class="img-fluid seedFpic">
+                    <h2 class="HeadersB seedF"> We Innovate Seed For Life</h2>
                 </div>
                 <div class="col-md-4 col-4">
-                    <img src="images/s2.png" alt="" style="margin:20px 0 40px 2vw; border-left:1px solid grey; border-right:1px solid grey; padding:0 2vw;"class="img-fluid">
-                    <h2 class="HeadersB" style="text-transform:uppercase;text-align:center; padding:0 30px;"> We Provide Seeds All over nepal</h2>
+                    <img src="images/s2.png" alt="" class="img-fluid seedFpic2">
+                    <h2 class="HeadersB seedF" > We Provide Seeds All over nepal</h2>
                 </div>
                 <div class="col-md-4 col-4">
-                    <img src="images/s3.png" alt="" style="margin:20px 0 40px 2vw; padding:0 30px;" class="img-fluid">
-                    <h2 class="HeadersB" style="text-transform:uppercase;text-align:center; padding:0 30px;"> We help every farmers</h2>
+                    <img src="images/s3.png" alt="" class="img-fluid seedFpic">
+                    <h2 class="HeadersB seedF"> We help every farmers</h2>
                 </div>
             </div>
         </div>
@@ -182,12 +182,11 @@
                         <h5 style="font-style:italic; color:#2d5f2e;">About us</h5>
 
                         <p style="padding:10px 0">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,24 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        </p>
-                        <a href="#"><button class="btn btn-info">More About Us</button></a>
+                        Established in 2002 AD, Lumbini Seed Company is the first cereal seed company in Nepal. It is registered under the company act 2053 in Siddharthanagar-7, Rupandehi. The company has started F/S seed production after the approval of Seed board of Nepal on 2005 AD. Since then, seed multiplication and hybrid seed production programs with active involvement of farmers, dealers, national and international organizations is being conducted. We are moving forward in the process of making Nepal a seed secure and seed sustainable country.                         </p>
+                        <a href="profile.php"><button class="btn btn-info">More About Us</button></a>
                     </div>
                     <div class="col-md-4" style="padding:20px;">
-                        <img src="images/company.png" class="img-fluid">
+                        <img src="images/company.jpg" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -201,10 +200,10 @@
                         </div>
                         <div class="Fdescription">
                             <h6 class="HeadersB">
-                                Key Feature 1
+                               Varietal Development & Maintainenacne
                             </h6>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Competitive and sufficient seed stock of new promising lines of OP and Hybrid
                             </p>
                         </div>
                     </div>
@@ -215,10 +214,10 @@
                         </div>
                         <div class="Fdescription">
                             <h6 class="HeadersB">
-                                Key Feature 1
+                               Seed Multiplication
                             </h6>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Adequate quantity of seeds multiplied through standard cycle of seed production
                             </p>
                         </div>
                     </div>
@@ -229,10 +228,10 @@
                         </div>
                         <div class="Fdescription">
                             <h6 class="HeadersB">
-                                Key Feature 1
+                                Seed Processing & Marketing
                             </h6>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Good quality of required seed distributed at the right time and right place at an affordable price
                             </p>
                         </div>
                     </div>
@@ -243,10 +242,10 @@
                         </div>
                         <div class="Fdescription">
                             <h6 class="HeadersB">
-                                Key Feature 1
+                               Seed Use 
                             </h6>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            quality seeds of preferred varieties accessible to farmers
                             </p>
                         </div>
                     </div>
@@ -262,7 +261,7 @@
     <div class="exploreProduct">
         <div class="container">
             <h3 class="HeadersB">Explore Our Products</h3>
-            <h6 style="font-style:italic;color:#2D5F2E">Since 2000</h6>
+            <h6 style="font-style:italic;color:#2D5F2E">Since 2002</h6>
             <div class="row" style="margin-top:20px;">
 
                 <div class="col-md-3 col-6">
@@ -310,9 +309,13 @@
     </div>
 
     <div class="testimonials">
-    <div class="container">
-        
+        <div class="container">
+            
+        </div>
     </div>
+
+    <div class="footer">
+        <?php include('footer.html')?>
     </div>
 
     <script src="bootstrap/js/bootstrap.min.js"></script>
